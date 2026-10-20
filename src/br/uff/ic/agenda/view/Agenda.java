@@ -24,8 +24,8 @@ import javax.swing.ListSelectionModel;
 
 public class Agenda extends JFrame {
     
-    private static final String ICONE_ADICIONA = "/toolbarButtonGraphics/general/Add16.gif";
-    private static final String ICONE_REMOVE = "/toolbarButtonGraphics/general/Delete16.gif";
+    private static final String ICONE_ADICIONA = "/br/uff/ic/agenda/view/icones/Add16.gif";
+    private static final String ICONE_REMOVE = "/br/uff/ic/agenda/view/icones/Delete16.gif";
     
     private final DefaultListModel<Contato> contatos = new DefaultListModel<>();
     private final JList<Contato> listaContatos = new JList<>(contatos);
@@ -34,7 +34,7 @@ public class Agenda extends JFrame {
     private final JTextArea campoDetalhes = new JTextArea();
     
     public Agenda() {
-        super("Agenda");        
+        super("Agenda Curso POO");        
         montaJanela();
     }
     
