@@ -2,6 +2,8 @@
 
 Demonstração de agenda com Swing em Java.
 
+Esse repositório é parte do curso [igormcoelho/curso-programacao-orientada-objetos](https://github.com/igormcoelho/curso-programacao-orientada-objetos)
+
 ## Breves Explicações
 
 Esse projeto é organizado em Java, no conceito de Model View Controller (MVC).
